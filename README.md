@@ -1,6 +1,15 @@
 # NeetCode
 ## This is the place where I practice DSA on LeetCode
 
+C++ Compile and Execute (Required ```make``` package)
+```
+make run
+```
+
+C++ Debug using gdb
+```
+make debug
+```
 
 C++ Manual Compile Code Syntax
 ```
