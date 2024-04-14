@@ -23,7 +23,7 @@ public:
 };
 
 void printVector(vector<int>& vect) {
-    for (int i = 0; i < vect.size(); ++i) {
+    for (int i = 0; i < (int) vect.size(); ++i) {
         cout << vect[i] << " --- ";
     }
 }
