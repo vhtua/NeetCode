@@ -9,16 +9,17 @@ using namespace std;
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
-        int k = 0;
-        int length = nums.size();
-        for (int i = 0; i < length; ++i) {
-            if (nums[i] == nums[i - 1]) {
-                k++;
+        int length  = nums.size();
+        int indx    = 1;
+
+        for (int i = 1; i < length; ++i) {
+            if (nums[i] != nums[i-1]) {
+                nums[indx] = nums[i];
+                indx++;
             }
         }
-
-
-        return k;
+        
+        return indx;
     }
 };
 
@@ -29,7 +30,7 @@ void printVector(vector<int>& vect) {
 }
 
 int main() {
-    vector<int> vect = {1, 1, 2, 3, 4, 5, 5};
+    vector<int> vect = {1, 1, 2};
     printVector(vect);
     Solution s1;
     s1.removeDuplicates(vect);
