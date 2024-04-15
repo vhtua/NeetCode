@@ -1,5 +1,3 @@
-// Problem: 26. Remove Duplicates from Sorted Array
-
 #include <iostream>
 #include <vector>
 
@@ -8,6 +6,7 @@ using namespace std;
 
 class Solution {
 public:
+    // 26. Remove Duplicates from Sorted Array
     int removeDuplicates(vector<int>& nums) {
         int k = 0;
         int length = nums.size();
@@ -25,14 +24,27 @@ public:
         return k;
     }
 
+    // 27. Remove Element
     int removeElement(vector<int>& nums, int val) {
-        int indx;
+        int indx = 0;
         int length = nums.size();
-        for (int i = 0; i < ) {
-            
+        for (int i = 0; i < length; ++i) {
+            if (nums[i] != val) {
+                nums[indx] = nums[i];
+                indx++; 
+            }
         }
 
         return indx;
+    }
+
+    // 1929. Concatenation of Array
+    vector<int> getConcatenation(vector<int>& nums) {
+        int length = nums.size();
+        for (int i = 0; i < length; ++i) {
+            nums.push_back(nums[i]);
+        }
+        return nums;
     }
 };
 
