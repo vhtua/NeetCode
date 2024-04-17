@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/workspaces/NeetCode/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/MyProgram.dir/main.cpp.o -c /workspaces/NeetCode/main.cpp",
+  "file": "/workspaces/NeetCode/main.cpp"
+}
+]
