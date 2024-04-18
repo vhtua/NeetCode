@@ -16,7 +16,6 @@ public:
         if (node == nullptr) {
             return false;
         }
-        if 
 
         return false;
     }

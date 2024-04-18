@@ -1,5 +1,7 @@
 #include <iostream>
 #include <vector>
+#include <cstring>
+#include <string>
 
 using namespace std;
 
@@ -46,21 +48,49 @@ public:
         }
         return nums;
     }
+
+
+    // 682. Baseball Game
+    int calPoints(vector<string>& operations) {
+        vector<int> score;
+        int sumScore = 0;
+        int length = operations.size();
+
+        for (int i = 0; i < length; ++i) {
+            
+            if (operations[i] == "+") {
+
+            } else if (operations[i] == "C") {
+
+            } else if (operations[i] == "D") {
+                
+            } else {
+                
+            }
+        }
+
+        return 0;
+    }
 };
 
-void printVector(vector<int>& vect) {
-    for (int i = 0; i < (int) vect.size(); ++i) {
-        cout << vect[i] << " --- ";
+void printVector(vector<int>& aVector) {
+    for (int i = 0; i < (int) aVector.size(); ++i) {
+        cout << aVector[i] << " --- ";
     }
     cout << endl;
 }
 
 int main() {
-    vector<int> vect = {1, 1, 2};
+    vector<int> aVector = {1, 1, 2};
     
     Solution s1;
-    cout << s1.removeDuplicates(vect) << endl;
-    printVector(vect);
+    cout << s1.removeDuplicates(aVector) << endl;
+    printVector(aVector);
+
+
+    vector<string> strVector = {"-2", "3", "D", "+", "+", "C"};
+    s1.calPoints(strVector);
+
 
 
 }
