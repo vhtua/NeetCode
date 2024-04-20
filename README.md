@@ -67,3 +67,10 @@ if (Test-Path($ChocolateyProfile)) {
 
 ## Algorithms
 - Boyer–Moore majority vote algorithm: https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm
+
+
+
+## List of completed Problem
+- 1 Tow Sum: [https://leetcode.com/problems/two-sum/description/](https://leetcode.com/problems/two-sum/description/) (__need improve__)
+- 20 Valid Parentheses: [https://leetcode.com/problems/valid-parentheses/description/](https://leetcode.com/problems/valid-parentheses/description/)
+- 21 Merge Two Sorted Lists: []()
