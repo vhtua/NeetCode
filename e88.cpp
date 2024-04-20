@@ -63,7 +63,26 @@ public:
     }
 };
 
+
+
+void printVector(vector<int>& aVector) {
+    for (int i = 0; i < (int) aVector.size(); ++i) {
+        cout << aVector[i] << " --- ";
+    }
+    cout << endl;
+}
+
+
 int main() {
+    vector<int> nums1 = {-1, 0, 0, 2, 3, 5, 0, 0, 0, 0, 0};
+    vector<int> nums2 = {-2, 4, 4, 6, 7};
+    int m = 6;
+    int n = 5;
+
+    Solution s1;
+    s1.merge(nums1, m, nums2, n);
+
+    printVector(nums1);
 
     return 0;
 }
