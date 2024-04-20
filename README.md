@@ -3,7 +3,7 @@
 
 C++ Compile and Execute (Required ```make``` package)
 ```
-make run
+make run SOURCE=main.cpp
 ```
 
 C++ Debug using gdb

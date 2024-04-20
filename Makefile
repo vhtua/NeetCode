@@ -6,7 +6,7 @@ EXECUTABLE = main
 
 all: $(EXECUTABLE)
 
-$(EXECUTABLE): main.cpp
+$(EXECUTABLE): $(SOURCE)
 	$(CC) $(CFLAGS) -o $@ $^
 
 clean:
@@ -17,3 +17,7 @@ debug: $(EXECUTABLE)
 
 run: $(EXECUTABLE)
 	./$(EXECUTABLE)
+
+ifndef SOURCE
+$(error SOURCE is not set. Please specify the source code file name using 'make run SOURCE=your_file_name.cpp')
+endif
