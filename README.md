@@ -22,6 +22,9 @@ g++ -Wall -std=c++20 main.cpp -o main
 ```
 
 ## Environment Setup 
+### Ubuntu, Linux
+- ```make``` normally has been installed on all these kinds of operating systems
+
 ### Windows
 
 - Install Chocolately
