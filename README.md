@@ -77,3 +77,6 @@ if (Test-Path($ChocolateyProfile)) {
 - 26 Remove Duplicates from Sorted Array: [https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
 - 27 Remove Element: [https://leetcode.com/problems/remove-element/description/](https://leetcode.com/problems/remove-element/description/)
 - 88 Merge Sorted Array: [https://leetcode.com/problems/merge-sorted-array/](https://leetcode.com/problems/merge-sorted-array/)
+- 155 Min Stack
+- 169 Majority Element
+- 191 Number of 1 Bits
