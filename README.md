@@ -83,3 +83,7 @@ if (Test-Path($ChocolateyProfile)) {
 - 155 Min Stack
 - 169 Majority Element
 - 191 Number of 1 Bits
+- 206 Reverse Linked List
+- 217 Contains Duplicate
+- 682 Baseball game
+- 1929 Concatenation of Array
