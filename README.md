@@ -22,6 +22,9 @@ g++ -Wall -std=c++20 main.cpp -o main
 ```
 
 ## Environment Setup 
+### Ubuntu, Linux
+- ```make``` normally has been installed on all these kinds of operating systems
+
 ### Windows
 
 - Install Chocolately
@@ -77,4 +80,10 @@ if (Test-Path($ChocolateyProfile)) {
 - 26 Remove Duplicates from Sorted Array: [https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
 - 27 Remove Element: [https://leetcode.com/problems/remove-element/description/](https://leetcode.com/problems/remove-element/description/)
 - 88 Merge Sorted Array: [https://leetcode.com/problems/merge-sorted-array/](https://leetcode.com/problems/merge-sorted-array/)
-- 155 Min Stack 
+- 155 Min Stack
+- 169 Majority Element
+- 191 Number of 1 Bits
+- 206 Reverse Linked List
+- 217 Contains Duplicate
+- 682 Baseball game
+- 1929 Concatenation of Array
