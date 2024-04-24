@@ -73,6 +73,7 @@ if (Test-Path($ChocolateyProfile)) {
 
 - Reverse the integer x:
   ```cpp
+    int x = 312;
     int reverse = 0;
     while (x > 0) {
         reverse *= 10;              // rev = rev * 10 = 0
