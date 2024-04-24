@@ -75,6 +75,7 @@ if (Test-Path($ChocolateyProfile)) {
 
 ## List of completed Problems
 - 1 Two Sum: [https://leetcode.com/problems/two-sum/description/](https://leetcode.com/problems/two-sum/description/) (__need improve__)
+- 13 Roman to Integer [https://leetcode.com/problems/roman-to-integer/description/](https://leetcode.com/problems/roman-to-integer/description/)
 - 20 Valid Parentheses: [https://leetcode.com/problems/valid-parentheses/description/](https://leetcode.com/problems/valid-parentheses/description/)
 - 21 Merge Two Sorted Lists: [https://leetcode.com/problems/merge-two-sorted-lists/description/](https://leetcode.com/problems/merge-two-sorted-lists/description/)
 - 26 Remove Duplicates from Sorted Array: [https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
