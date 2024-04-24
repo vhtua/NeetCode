@@ -71,6 +71,14 @@ if (Test-Path($ChocolateyProfile)) {
 ## Algorithms
 - Boyer–Moore majority vote algorithm: https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm
 
+- Reverse the integer x:
+  ```cpp
+    while (x > 0) {
+        reverse *= 10;              // rev = rev * 10 = 0
+        reverse += x % 10;          // rev = 0 + 312 % 10 = 2
+        x /= 10;                    // x = 312 / 10 = 31
+    }
+  ```
 
 
 ## List of completed Problems
