@@ -81,7 +81,7 @@ if (Test-Path($ChocolateyProfile)) {
         x /= 10;                    // x = 312 / 10 = 31
     }
   ```
-
+- Two pointers technique
 
 ## List of completed Problems
 - 1 Two Sum: [https://leetcode.com/problems/two-sum/description/](https://leetcode.com/problems/two-sum/description/) (__need improve__)
