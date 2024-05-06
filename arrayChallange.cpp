@@ -6,9 +6,18 @@ using namespace std;
 
 vector<string> arrayChallange(vector<string> &strArr) {
     vector<string> result;
+    result.push_back(strArr[0]);
+    result.erase(result.begin());
+    int strArrIndx = 0;
+    int resultIndx = 0;
+    int counter = 1;
 
-    for (int i = 0; i < (int)strArr.size(); ++i) {
-        
+    while (strArr.size() != 0) {
+        if (strArr[strArrIndx] == result[resultIndx] || strArrIndx == strArr.size() - 1) {
+            strArrIndx = 0;
+        } else {
+            strArrIndx++;
+        }
     }
 
     return strArr;
@@ -22,6 +31,7 @@ void printArr(vector<string> &strArr) {
 }
 
 int main() {
+    // Implement cache array
     vector<string> strArr = {"A", "B", "A", "C", "A", "B"};
     vector<string> strArr2 = {"A", "B", "C", "D", "E", "D", "Q", "Z", "C"};
     vector<string> result = arrayChallange(strArr);
