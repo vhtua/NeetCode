@@ -8,19 +8,19 @@ class Solution {
     public:
         int missingNumber(vector<int>& nums) {
             sort(nums.begin(), nums.end());
-            for (int i = 1; i < (int) nums.size(); ++i) {
-                if (nums[i] > (nums[i - 1] + 1)) {
-                    return nums[i - 1] + 1; 
+            int i = 0;
+            for (; i < (int) nums.size(); ++i) {
+                if (i != nums[i]) {
+                    return i;
                 }
             }
-            return nums.back() - 1;
+            return i;
         }
-
-        // or we can use the differences between two sums;
 };
 
 int main(int argc, char* argv[]) {
-    vector<int> v = { 1, 4, 0, 2 };
+    // vector<int> v = { 1, 4, 0, 2 };
+    vector<int> v = { 1, 0 };
     Solution s;
     cout << s.missingNumber(v) << endl;
     return 0;
