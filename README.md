@@ -70,6 +70,7 @@ if (Test-Path($ChocolateyProfile)) {
 
 ## Algorithms
 - Boyer–Moore majority vote algorithm: https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm
+- Chebyshev distance: https://www.datacamp.com/tutorial/chebyshev-distance
 
 - Reverse the integer x:
   ```cpp
